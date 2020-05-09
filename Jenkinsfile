@@ -13,5 +13,5 @@
 		stage'executeansible'
 		sh "echo ansible"
 		stage'GITHUB Branch'
-		sh "This is Develop Branch"
+		sh "echo This is Develop Branch"
 		}
