@@ -12,5 +12,7 @@ node
 		sh "echo deploy"
 		stage'executeansible'
 		sh "echo ansible"
+		stage'GITHUB Branch'
+		sh "echo ansible This is Master Branch"
 			
 		}
