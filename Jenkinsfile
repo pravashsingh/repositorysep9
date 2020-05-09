@@ -1,4 +1,4 @@
-node		
+		node		
 		{ 
 		stage'download_from_github'
 		sh "echo download"
@@ -14,5 +14,4 @@ node
 		sh "echo ansible"
 		stage'GITHUB Branch'
 		sh "This is Develop Branch"
-			
 		}
