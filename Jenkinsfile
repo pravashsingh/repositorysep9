@@ -11,7 +11,7 @@
 		sh "echo deploy"
 		stage'executeansible'
 		sh "echo ansible"
-		stage'approval'
-		input 'Do you want to proceed'
-		
+		stage'GITHUB Branch'
+		sh "This is Develop Branch"
+			
 		}
